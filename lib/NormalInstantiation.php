@@ -9,8 +9,8 @@
  * file that was distributed with this source code.
  */
 
-namespace SR\Instantiator;
+namespace SR\Instantiate;
 
-final class StatelessInstantiator extends AbstractInstantiator
+final class NormalInstantiation extends AbstractInstantiation
 {
 }

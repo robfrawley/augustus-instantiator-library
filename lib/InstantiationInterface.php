@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace SR\Instantiator;
+namespace SR\Instantiate;
 
-interface InstantiatorInterface
+interface InstantiationInterface
 {
     /**
      * Instantiate an object using the specified constructor arguments.
      *
-     * @param string|object $class Class name or instance to instantiate
-     * @param mixed         ...$constructorArguments Arguments to pass to constructor
+     * @param string|object $object       Class name or instance to instantiate
+     * @param mixed         ...$arguments Arguments to pass to constructor
      *
      * @return object
      */
-    public static function instantiate($class, ...$constructorArguments);
+    public static function instantiate($object, ...$arguments);
 }
 
 /* EOF */
